@@ -1,0 +1,65 @@
+===== Parameters =====
+Algorithm: RANSAC
+Floor params:{'threshold': 0.05, 'max_iterations': 1500}
+Morphology: opening=3x3, closing=3x3
+Top_params:{'threshold': 0.01, 'max_iterations': 3000}
+
+
+Algorithm: MLESAC
+Floor params:{'threshold': 0.05, 'gamma': 0.03, 'max_iterations': 1500}
+Morphology: opening=3x3, closing=3x3
+Top_params:{'threshold': 0.01, 'gamma': 0.03, 'max_iterations': 3000}
+
+
+Algorithm: Preemptive_ransac
+Floor params:{'M': 100, 'B': 100, 'threshold': 0.05, 'gamma': 0.05}
+Morphology: opening=3x3, closing=3x3
+Top_params:{'M': 100, 'B': 100, 'threshold': 0.05, 'gamma': 0.05}
+
+
+======================
+
+Box Dimensions of Example 1 using RANSAC : 
+Length=1.4748, Width=1.0124, Height=0.3140
+
+Box Dimensions of Example 1 using MLESAC : 
+Length=1.5114, Width=1.0411, Height=0.2092
+
+Box Dimensions of Example 1 using Preemptive_ransac : 
+Length=1.5134, Width=1.0534, Height=0.2069
+
+----------------------------
+
+Box Dimensions of Example 2 using RANSAC : 
+Length=2.0464, Width=2.3222, Height=0.2872
+
+Box Dimensions of Example 2 using MLESAC : 
+Length=1.9827, Width=2.0646, Height=0.2229
+
+Box Dimensions of Example 2 using Preemptive_ransac : 
+Length=1.9959, Width=2.0853, Height=0.2186
+
+----------------------------
+
+Box Dimensions of Example 3 using RANSAC : 
+Length=2.0844, Width=2.3881, Height=0.2034
+
+Box Dimensions of Example 3 using MLESAC : 
+Length=2.0315, Width=2.3823, Height=0.2411
+
+Box Dimensions of Example 3 using Preemptive_ransac : 
+Length=2.0902, Width=2.3942, Height=0.2413
+
+----------------------------
+
+Box Dimensions of Example 4 using RANSAC : 
+Length=1.0482, Width=1.8067, Height=0.2796
+
+Box Dimensions of Example 4 using MLESAC : 
+Length=1.1847, Width=1.6057, Height=0.2095
+
+Box Dimensions of Example 4 using Preemptive_ransac : 
+Length=1.1827, Width=1.5852, Height=0.2091
+
+----------------------------
+
